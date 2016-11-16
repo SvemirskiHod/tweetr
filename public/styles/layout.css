@@ -18,6 +18,116 @@ body {
   margin: 0;
   color: #244751;
   background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+  width: 450px;
+  height: 2000px;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 140px;
+  margin: auto;    /*CHECK THIS IF MARGINS MESS UP*/
+}
+
+.new-tweet{
+  border: 1px solid gray;
+  border-radius: 10px;
+  /*margin: auto;*/
+  background: #eee;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0.3em 0.7em;
+
+}
+
+.tweet {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-left: 2em;
+  /*padding: 0.3em 0.7em;*/
+}
+
+.tweet {
+  opacity: 1;
+}
+
+.tweet header {
+  background: #eee;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 0px 4px 10px;
+
+}
+
+.tweet img {
+  height: 15%;
+  width: 15%;
+  /*padding: 0px 0px 0px 0px;*/
+  border-radius: 7px;
+  margin-right: 2px;
+
+}
+
+.tweet strong {
+  vertical-align: top;
+  font-size: 160%;
+}
+
+.tweet header span {
+  vertical-align: top;
+  font-size: 100%;
+  float: right;
+  color: gray;
+  padding: 7px;
+}
+
+.tweet div {
+  padding: 1.5em 0.5em;
+  border-bottom: 1px solid gray;
+  font-size: 130%
+}
+
+
+.tweet footer {
+  padding: 0.85em 0.6em;
+  font-size: 75%
+}
+
+.tweet .timeStamp{
+}
+
+.tweet:hover .iconRow {
+  opacity: 100;
+  transition: opacity 2s;
+}
+
+.tweet .iconRow {
+  float: right;
+  opacity: 0;
+  color: #00a087;
+}
+
+.tweet i {
+  padding-right: 4px;
+}
+
+.counter.over {
+  color: red;
+}
+
+.counter {
+  float: right;
+}
+
+main textarea {
+  width: 100%;
+  margin: auto;
+}
+
+main h2 {
+  border-bottom: solid;
 }
 
 /*
