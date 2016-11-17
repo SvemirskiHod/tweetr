@@ -19,3 +19,25 @@
   font-size: 200%;
   line-height: 80px;
 }
+
+/*FIX THE BUTTON HERE AND IN THE HTML*/
+
+#composeButton {
+  border: solid black 1px;
+  width: 150px;
+  height: 30px;
+  float: right;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#composeButton span {
+  margin: auto;
+  padding: 10px;
+
+}
+/*BUTTON END*/
+
+
+.navButtons{
+}

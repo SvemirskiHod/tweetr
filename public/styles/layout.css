@@ -86,7 +86,8 @@ body {
 .tweet div {
   padding: 1.5em 0.5em;
   border-bottom: 1px solid gray;
-  font-size: 130%
+  font-size: 130%;
+  overflow-wrap: break-word;
 }
 
 
@@ -100,7 +101,7 @@ body {
 
 .tweet:hover .iconRow {
   opacity: 100;
-  transition: opacity 2s;
+  transition: opacity 1s;
 }
 
 .tweet .iconRow {
