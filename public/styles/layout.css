@@ -27,13 +27,12 @@ body {
   background-color: white;
   box-sizing: border-box;
   padding-top: 140px;
-  margin: auto;    /*CHECK THIS IF MARGINS MESS UP*/
+  margin: auto;
 }
 
 .new-tweet{
   border: 1px solid gray;
   border-radius: 10px;
-  /*margin: auto;*/
   background: #eee;
   margin-right: 2em;
   margin-left: 2em;
@@ -47,7 +46,6 @@ body {
   margin-top: 1em;
   margin-right: 2em;
   margin-left: 2em;
-  /*padding: 0.3em 0.7em;*/
 }
 
 .tweet {
@@ -68,7 +66,6 @@ body {
 .tweet img {
   height: 15%;
   width: 15%;
-  /*padding: 0px 0px 0px 0px;*/
   border-radius: 7px;
   margin-right: 2px;
 

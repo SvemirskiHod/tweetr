@@ -3,7 +3,7 @@
  * jQuery is already loaded
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
-
+ "use strict";
 
 const createTweetElement = function (tweetData) { //Returns HTML in string that is the body of the tweet
 
@@ -12,7 +12,6 @@ const createTweetElement = function (tweetData) { //Returns HTML in string that 
   let tweetMessage = tweetData.content.text;
   let image = tweetData.user.avatars.regular;
   let date = new Date(tweetData["created_at"]).toLocaleString();
-
   let $tweet =
       `<article class="tweet">
         <header>

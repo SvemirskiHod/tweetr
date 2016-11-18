@@ -20,8 +20,6 @@
   line-height: 80px;
 }
 
-/*FIX THE BUTTON HERE AND IN THE HTML*/
-
 #composeButton {
   border: solid black 1px;
   width: 115px;
@@ -38,9 +36,4 @@
 #composeButton:hover {
   background-color: white;
   color: black;
-}
-/*BUTTON END*/
-
-
-.navButtons{
 }
