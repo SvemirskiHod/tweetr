@@ -1,7 +1,7 @@
  #nav-bar {
   background-color: #00a087 ;
   color: #e8fdff;
-
+  z-index: 1000;
   position: fixed;
   padding: 0px 2em;
   width: 100%;
@@ -24,17 +24,20 @@
 
 #composeButton {
   border: solid black 1px;
-  width: 150px;
-  height: 30px;
+  width: 115px;
+  height: 59px;
   float: right;
-  margin-top: 15px;
+  margin-top: 11px;
   border-radius: 5px;
+  background-color: #e8fdff;
+  color: #00a087;
+  padding: 17.5px 4px;
+  font-size: 1.3em;
 }
 
-#composeButton span {
-  margin: auto;
-  padding: 10px;
-
+#composeButton:hover {
+  background-color: white;
+  color: black;
 }
 /*BUTTON END*/
 

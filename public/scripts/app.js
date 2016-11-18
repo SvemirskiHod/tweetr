@@ -4,12 +4,15 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 
+
 const createTweetElement = function (tweetData) { //Returns HTML in string that is the body of the tweet
+
   let userName = tweetData.user.name;
   let handle = tweetData.user.handle;
   let tweetMessage = tweetData.content.text;
   let image = tweetData.user.avatars.regular;
-  let date = tweetData["created_at"];
+  let date = new Date(tweetData["created_at"]).toLocaleString();
+
   let $tweet =
       `<article class="tweet">
         <header>
@@ -89,5 +92,6 @@ $("document").ready(function (){ // Code to be executed on page render
   });
   loadTweets();
 });
+
 
 

@@ -51,6 +51,10 @@ body {
 }
 
 .tweet {
+  opacity: 0.7;
+}
+
+.tweet:hover {
   opacity: 1;
 }
 
